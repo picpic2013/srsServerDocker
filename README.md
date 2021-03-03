@@ -13,8 +13,9 @@ How to run
 
 ```bash
 git clone https://github.com/picpic2013/srsServerDocker.git
+cd srsServerDocker
 docker build -t mysrs:v1 .
-sudo docker run -d --name srs -p 1935:1935 mysrs:v1
+docker run -d --name srs -p 1935:1935 mysrs:v1
 ```
 
 
